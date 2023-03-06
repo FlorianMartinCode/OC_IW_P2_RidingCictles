@@ -127,11 +127,12 @@ p {
 .whiteContentSection h3,
 .whiteContentSection p {
 	color:  white;
-}
-
-.textCenter {
 	text-align: center;
 }
+
+/* .textCenter {
+	text-align: center;
+} */
 
 /***************/
 .sectionLightGreyBackground {
@@ -146,7 +147,9 @@ p {
 
 	border-style: solid;
 	border-width: 2px;
-	border-radius: 5px;
+	/* border-radius: 5px; */
+	border-radius: 39px;
+
 
 	box-sizing: border-box;
 
@@ -161,6 +164,7 @@ p {
 	justify-content: center;
 
 	text-decoration: none;
+
 }
 
 .buttonDrakGreyColor {
@@ -178,11 +182,11 @@ p {
 	border-color: var(--second-color);
 }
 
-.buttonRounded {
+/* .buttonRounded {
 	border-radius: 39px;
-}
+} */
 
-.buttonHighlight:hover {
+.button:hover {
 	font-weight: 800;
 	border-width: 3px;
 }
